@@ -149,11 +149,11 @@ class Main extends PluginBase {
 		
         $form->addButton($player->hasPermission("tags.knight") === true ? "[§l§4Kni§8ght§r]\n§a§lUNLOCKED" : "[§l§4Kni§8ght§r]\n§c§lLOCKED"); 
 		
-		$form->addButton($player->hasPermission("tags.warrior") === true ? " [§l§cWarrior§r]\n§a§lUNLOCKED" : " [§l§cWarrior§r]\n§c§lLOCKED");
+	$form->addButton($player->hasPermission("tags.warrior") === true ? " [§l§cWarrior§r]\n§a§lUNLOCKED" : " [§l§cWarrior§r]\n§c§lLOCKED");
 		
         $form->addButton($player->hasPermission("tags.armorer") === true ? "[§l§7Armo§8rer§r]\n§r§a§lUNLOCKED" : "[§l§7Armo§8rer§r]\n§c§lLOCKED");
 		
-		$form->addButton($player->hasPermission("tags.archer") === true ? "[§l§aArc§2her§r]\n§r§a§lUNLOCKED" : "[§l§aArc§2her§r]\n§c§lLOCKED"); 
+	$form->addButton($player->hasPermission("tags.archer") === true ? "[§l§aArc§2her§r]\n§r§a§lUNLOCKED" : "[§l§aArc§2her§r]\n§c§lLOCKED"); 
 		
         $form->addButton($player->hasPermission("tags.wizard") === true ? " [§l§9Wiz§1ard§r]\n§r§a§lUNLOCKED" : " [§l§9Wiz§1ard§r]\n§c§lLOCKED");
 		
