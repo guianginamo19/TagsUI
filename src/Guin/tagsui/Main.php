@@ -8,16 +8,16 @@ use pocketmine\Player;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\command\{Command,CommandSender};
 use pocketmine\command\PluginIdentifiableCommand;
-use pocketmine\utils\TextFormat;
+use pocketmine\utils\TextFormat as G;
 
 class Main extends PluginBase {
     public const PREFIX = "§l§a[TagsUI]";
 		
     public function onEnable() {
-        $this->getLogger()->info(self::PREFIX .TextFormat::GREEN."TagsUI Enabled");
+        $this->getLogger()->info(self::PREFIX .G::GREEN."TagsUI Enabled");
     }
     public function onDisable() {
-        $this->getLogger()->info(self::PREFIX .TextFormat::RED."TagsUI Disabled");
+        $this->getLogger()->info(self::PREFIX .G::RED."TagsUI Disabled");
     }
 
 	public function runAsOp(Player $player, String $cmd){
