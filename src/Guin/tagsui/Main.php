@@ -7,7 +7,6 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\command\{Command,CommandSender};
-use pocketmine\utils\Config;
 use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\utils\TextFormat;
 
