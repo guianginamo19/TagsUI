@@ -1,5 +1,5 @@
 name: TagsUI
-version: 1.0.0
+version: 1.0.1-Beta
 main: Guin\tagsui\Main
 api: 3.14.2
 author: Guin
