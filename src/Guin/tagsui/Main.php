@@ -12,13 +12,13 @@ use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
-    public const PREFIX = "§l§a[Cytron§dMC]";
+    public const PREFIX = "§l§a[TagsUI]";
 		
     public function onEnable() {
-        $this->getLogger()->info(self::PREFIX .TextFormat::GREEN."SimpleTagsUI Enabled");
+        $this->getLogger()->info(self::PREFIX .TextFormat::GREEN."TagsUI Enabled");
     }
     public function onDisable() {
-        $this->getLogger()->info(self::PREFIX .TextFormat::RED."SimpleTagsUI Disabled");
+        $this->getLogger()->info(self::PREFIX .TextFormat::RED."TagsUI Disabled");
     }
 
 	public function runAsOp(Player $player, String $cmd){
