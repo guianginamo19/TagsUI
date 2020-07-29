@@ -5,5 +5,5 @@ branches:
 projects:
   TagsUI:
     path: "" 
-    icon: "icon.png"
+    icon: icon.png
 ...
