@@ -1,0 +1,62 @@
+---
+# Created in 7/28/2020
+# Modified By @BabosApple
+# ==========
+# Form Configuration
+form-title: "TagsUI"
+form-content: "Select tags you want to apply"
+tag-1: "Tag 1"
+tag-2: "Tag 2"
+tag-3: "Tag 3"
+tag-4: "Tag 4"
+tag-5: "Tag 5"
+tag-6: "Tag 6"
+tag-7: "Tag 7"
+tag-8: "Tag 8"
+tag-9: "Tag 9"
+tag-10: "Tag 10"
+# ==========
+# Tags Configuration
+tag-1-format: "[Tag1]"
+tag-2-format: "[Tag2]"
+tag-3-format: "[Tag3]"
+tag-4-format: "[Tag4]"
+tag-5-format: "[Tag5]"
+tag-6-format: "[Tag6]"
+tag-7-format: "[Tag7]"
+tag-8-format: "[Tag8]"
+tag-9-format: "[Tag9]"
+tag-10-format: "[Tag10]"
+# ==========
+# Messages Configuration
+tags-1-applied: "You've applied tag1"
+tags1-no-perm: "You dont have permission to use tag1"
+# ========
+tags-2-applied: "You've applied tag2"
+tags2-no-perm: "You dont have permission to use tag2"
+# ========
+tags-3-applied: "You've applied tag3"
+tags3-no-perm: "You dont have permission to use tag3"
+# ========
+tags-4-applied: "You've applied tag4"
+tags4-no-perm: "You dont have permission to use tag4"
+# ========
+tags-5-applied: "You've applied tag5"
+tags5-no-perm: "You dont have permission to use tag5"
+# ========
+tags-6-applied: "You've applied tag6"
+tags6-no-perm: "You dont have permission to use tag6"
+# ========
+tags-7-applied: "You've applied tag7"
+tags7-no-perm: "You dont have permission to use tag7"
+# ========
+tags-8-applied: "You've applied tag8"
+tags8-no-perm: "You dont have permission to use tag8"
+# ========
+tags-9-applied: "You've applied tag9"
+tags9-no-perm: "You dont have permission to use tag9"
+# ========
+tags-10-applied: "You've applied tag10"
+tags10-no-perm: "You dont have permission to use tag10"
+# ========
+...
