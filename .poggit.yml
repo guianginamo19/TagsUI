@@ -4,5 +4,6 @@ branches:
 - master
 projects:
   TagsUI:
-    path: ""
+    path: "" 
+    icon: "IMG_20200729_134050.jpg"
 ...
