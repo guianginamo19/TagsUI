@@ -1,0 +1,9 @@
+name: Tags
+main: Guin\tagsui\Main
+author: Guin
+api: 3.0.0
+version: 1.1.0
+
+commands:
+  tagsui:
+    description: "Open TagsUI"
