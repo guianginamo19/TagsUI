@@ -19,8 +19,6 @@ class Main extends PluginBase implements Listener {
 		$this->saveDefaultConfig();
 		$this->getResource("config.yml");
 	}
-        public const PREFIX = "§l§aTags§dUI§b»";
-
 	public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
 
 		switch($cmd->getName()){
@@ -42,90 +40,90 @@ class Main extends PluginBase implements Listener {
 				case 0:
 					if($player->hasPermission("tags.one")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-1-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-1-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-1-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags1-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags1-no-perm"));
 					}
 				break;
 
 				case 1:
 					if($player->hasPermission("tags.two")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-2-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-2-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-2-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags2-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags2-no-perm"));
 					}
 				break;
 
 				case 2:
 					if($player->hasPermission("tags.three")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-3-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-3-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-3-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags3-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags3-no-perm"));
 					}
 				break;
 
 				case 3:
 					if($player->hasPermission("tags.four")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-4-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-4-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-4-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags4-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags4-no-perm"));
 					}
 				break;
 
 				case 4:
 					if($player->hasPermission("tags.five")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-5-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-5-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-5-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags5-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags5-no-perm"));
 					}
 				break;
 
 				case 5:
 					if($player->hasPermission("tags.six")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-6-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-6-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-6-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags6-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags6-no-perm"));
 					}
 				break;
 
 				case 6:
 					if($player->hasPermission("tags.seven")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-7-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-7-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-7-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags7-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags7-no-perm"));
 					}
 				break;
 
 				case 7:
 					if($player->hasPermission("tags.eight")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-8-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-8-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-8-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags8-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags8-no-perm"));
 					}
 				break;
 
 				case 8:
 					if($player->hasPermission("tags.nine")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-9-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-9-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-9-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags9-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags9-no-perm"));
 					}
 				break;
 
 				case 9:
 					if($player->hasPermission("tags.ten")){
 						$player->setDisplayName($player->getName() . " " . $this->getConfig()->get("tag-10-format"));
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags-10-applied"));
+						$player->sendMessage($this->getConfig()->get("tags-10-applied"));
 					} else {
-						$player->sendMessage($this->getConfig()->get(self::PREFIX ."tags10-no-perm"));
+						$player->sendMessage($this->getConfig()->get("tags10-no-perm"));
 					}
 				break;
 			}
